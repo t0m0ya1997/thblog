@@ -1,0 +1,154 @@
+baseURL: "https://t0m0ya1997.github.io/thblog/"
+title: TH's Blog
+paginate: 5
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+publishDir: "docs"
+canonifyurls:  true
+
+googleAnalytics: UA-123-45
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: TH's Blog
+  description: "思い立ったことをつらつらと。不定期更新のブログです。"
+  keywords: [Blog, Data Science, データサイエンス, Machine Learning, 機械学習, Bayesian, ベイズ推論, Camera, カメラ, Photography, 写真, Books, 読書]
+  author: TH
+  author: ["TH"] # multiple authors
+  images: ["images/profile.webp"]
+  DateFormat: "January 2, 2006"
+  defaultTheme: dark # dark, light
+  disableThemeToggle: true
+  # Vanta.js animation background
+  vanta: true
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: "<link / abs url>"
+    favicon16x16: "<link / abs url>"
+    favicon32x32: "<link / abs url>"
+    apple_touch_icon: "<link / abs url>"
+    safari_pinned_tab: "<link / abs url>"
+
+  label:
+    text: "Home"
+    icon: images/home.svg
+    iconHeight: 40
+
+  # profile-mode
+  profileMode:
+    enabled: true # needs to be explicitly set
+    title: TH's Blog
+    subtitle: "吾、唯足ることを知る。"
+    imageUrl: "images/profile.webp"
+    imageWidth: 256
+    imageHeight: 256
+    imageTitle: My Profile Image
+    buttons:
+      - name: Post
+        url: posts
+      - name: Tags
+        url: tags
+
+  # home-info mode
+  # homeInfoParams:
+  #  Title: "Hi there \U0001F44B"
+  #  Content: Welcome to my blog
+
+  socialIcons:
+    - name: twitter
+      url: "https://twitter.com/t_flat_river"
+    - name: stackoverflow
+      url: "https://stackoverflow.com"
+    - name: github
+      url: "https://github.com/t0m0ya1997"
+
+  analytics:
+    google:
+      SiteVerificationTag: "XYZabc"
+    bing:
+      SiteVerificationTag: "XYZabc"
+    yandex:
+      SiteVerificationTag: "XYZabc"
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
+  editPost:
+    URL: "https://github.com/<path_to_repo>/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+menu:
+  main:
+    - identifier: archives
+      name: 記事一覧
+      url: /archives/
+      weight: 10
+    - identifier: categories
+      name: カテゴリー
+      url: /categories/
+      weight: 20
+    - identifier: tags
+      name: タグ
+      url: /tags/
+      weight: 30
+    - identifier: example
+      name: example.org
+      url: https://example.org
+      weight: 40
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
+
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+# pygmentsUseClasses: true
+# markup:
+#     highlight:
+#         # anchorLineNos: true
+#         codeFences: true
+#         guessSyntax: true
+#         lineNos: true
+#         style: monokai

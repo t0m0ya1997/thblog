@@ -1,0 +1,7 @@
+{{- /* Footer custom content area start */ -}}
+{{- /*     Insert any custom code web-analytics, resources, etc. here */ -}}
+{{- /* Footer custom content area end */ -}}
+
+{{ if or .Params.vanta .Site.Params.vanta }}
+{{ partial "vanta.html" . }}
+{{ end }}
