@@ -11,7 +11,7 @@ buildExpired: false
 publishDir: "docs"
 canonifyurls: false
 
-googleAnalytics: UA-123-45
+googleAnalytics: G-XG2CN43ZPM
 
 minify:
   disableXML: true
