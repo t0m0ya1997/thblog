@@ -9,7 +9,7 @@ buildFuture: false
 buildExpired: false
 
 publishDir: "docs"
-canonifyurls: false
+canonifyurls: true
 
 googleAnalytics: UA-123-45
 
@@ -118,20 +118,16 @@ menu:
   main:
     - identifier: archives
       name: 記事一覧
-      url: /archives/
+      url: thblog/archives/
       weight: 10
     - identifier: categories
       name: カテゴリー
-      url: /categories/
+      url: thblog/categories/
       weight: 20
     - identifier: tags
       name: タグ
-      url: /tags/
+      url: thblog/tags/
       weight: 30
-    - identifier: example
-      name: example.org
-      url: https://example.org
-      weight: 40
 
 outputs:
     home:
