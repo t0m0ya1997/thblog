@@ -21,7 +21,7 @@ params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: TH's Blog
   description: "思い立ったことをつらつらと。不定期更新のブログです。"
-  keywords: [Blog, Data Science, データサイエンス, Machine Learning, 機械学習, Bayesian, ベイズ推論, Camera, カメラ, Photography, 写真, Books, 読書]
+  keywords: [Blog, KOSEN, 高専, Data Science, データサイエンス, Machine Learning, 機械学習, Bayesian, ベイズ推論, Camera, カメラ, Photography, 写真, Books, 読書]
   author: TH
   author: ["TH"] # multiple authors
   images: ["images/profile.webp"]
@@ -118,7 +118,7 @@ menu:
   main:
     - identifier: archives
       name: 記事一覧
-      url: /archives/
+      url: /posts/
       weight: 10
     - identifier: categories
       name: カテゴリー
