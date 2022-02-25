@@ -9,7 +9,7 @@ buildFuture: false
 buildExpired: false
 
 publishDir: "docs"
-canonifyurls:  true
+canonifyurls: false
 
 googleAnalytics: UA-123-45
 
@@ -118,7 +118,7 @@ menu:
   main:
     - identifier: archives
       name: 記事一覧
-      url: /posts/
+      url: /archives/
       weight: 10
     - identifier: categories
       name: カテゴリー
