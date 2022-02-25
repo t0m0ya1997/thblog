@@ -94,7 +94,7 @@ Powered by
 </a>
 <script src=https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js></script>
 <script src=https://cdn.jsdelivr.net/npm/vanta@0.5.21/dist/vanta.cells.min.js></script>
-<script>const effect=VANTA.CELLS({el:"#vanta-bg",mouseControls:!0,touchControls:!0,gyroControls:!1,minHeight:200,minWidth:200,scale:4,color1:0,color2:1916754,size:1,speed:1})</script>
+<script>const effect=VANTA.CELLS({el:"#vanta-bg",mouseControls:!0,touchControls:!0,gyroControls:!1,minHeight:200,minWidth:200,scale:8,color1:0,color2:1916754,size:1,speed:1})</script>
 <script>let menu=document.getElementById('menu');menu&&(menu.scrollLeft=localStorage.getItem("menu-scroll-position"),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)}),document.querySelectorAll('a[href^="#"]').forEach(a=>{a.addEventListener("click",function(b){b.preventDefault();var a=this.getAttribute("href").substr(1);window.matchMedia('(prefers-reduced-motion: reduce)').matches?document.querySelector(`[id='${decodeURIComponent(a)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(a)}']`).scrollIntoView({behavior:"smooth"}),a==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${a}`)})})</script>
 <script>var mybutton=document.getElementById("top-link");window.onscroll=function(){document.body.scrollTop>800||document.documentElement.scrollTop>800?(mybutton.style.visibility="visible",mybutton.style.opacity="1"):(mybutton.style.visibility="hidden",mybutton.style.opacity="0")}</script></body>
 </html>
