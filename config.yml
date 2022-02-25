@@ -118,15 +118,15 @@ menu:
   main:
     - identifier: archives
       name: 記事一覧
-      url: thblog/archives/
+      url: /archives/
       weight: 10
     - identifier: categories
       name: カテゴリー
-      url: thblog/categories/
+      url: /categories/
       weight: 20
     - identifier: tags
       name: タグ
-      url: thblog/tags/
+      url: /tags/
       weight: 30
 
 outputs:
