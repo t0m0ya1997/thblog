@@ -9,7 +9,7 @@ buildFuture: false
 buildExpired: false
 
 publishDir: "docs"
-canonifyurls: true
+canonifyurls: false
 
 googleAnalytics: UA-123-45
 
