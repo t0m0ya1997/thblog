@@ -1,175 +1,48 @@
 ---
-author: Hugo Authors
-title: Math Typesetting
-date: 2019-03-08
-description: A brief guide to setup KaTeX
-math: true
-ShowBreadCrumbs: false
+title: こんにちは。黒かりんとうが美味しいと思えるようになりました。
+date: 2022-01-21
+categories: [Life]
+tags: [つらつら]
+description: "はじめまして．社会人になる，なってしまうことから，ブログを移転しました．"
+draft: false
+showDate: true
+lastmod: 2022-1-22
 ---
 
-Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.
+はじめまして．
+社会人になる，なってしまうことから，ブログを移転しました．
+社会人になると，様々なしがらみが増えるものです．
+本名を堂々と名乗ることはできないということで，今後は 「**TH**」 と自称することといたしました．
 
-<!--more-->
+さて，僕は3月に大学院を修了し，4月にはどこかの広告代理店でデータサイエンティストになる予定です．
+いったい現時点で僕が何を持ってして社会に貢献するのか，甚だ疑問が残るところではありますが，働きます．
+働くのが嫌で大学院生という人生のモラトリアムを謳歌していたのですが，それも終わりです．
+しかしながら，社会人とて学生のような遊び心は持っていたいものです．
+そういうわけでこのブログです．
+僕は写真を撮ることが好きです．
+本を読むことが好きです．
+最近では苦くて味の違いもわからなかったコーヒーも，味の違いがわかるようになり，好きになりました．
+「**社会人になっても，学生のように趣味を愉しむ，勉学に励む**」そんなコンセプトでこのblog-ishなものを作りました．
+僕の人生の一部を誰かと共有した気になる，そんな些か自己中心的な目的のためでもありますが，ふとした時にふらっと立ち寄っていただけると幸いです．
 
-In this example we will be using [KaTeX](https://katex.org/)
-
--   Create a partial under `/layouts/partials/math.html`
--   Within this partial reference the [Auto-render Extension](https://katex.org/docs/autorender.html) or host these scripts locally.
--   Include the partial in your templates ([`extend_head.html`](../papermod/papermod-faq/#custom-head--footer)) like so:
--   refer [ISSUE #236](https://github.com/adityatelange/hugo-PaperMod/issues/236)
-
-```bash
-{{ if or .Params.math .Site.Params.math }}
-{{ partial "math.html" . }}
-{{ end }}
-```
-
--   To enable KaTex globally set the parameter `math` to `true` in a project's configuration
--   To enable KaTex on a per page basis include the parameter `math: true` in content files
-
-**Note:** Use the online reference of [Supported TeX Functions](https://katex.org/docs/supported.html)
-
-{{< math.inline >}}
-{{ if or .Page.Params.math .Site.Params.math }}
-
-<!-- KaTeX -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
-<script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js" integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script>
-<script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
-{{ end }}
-{{</ math.inline >}}
-
-### Examples
-
-Inline math: $ \varphi = \dfrac{1+\sqrt5}{2}= 1.6180339887... $
-
-
-Block math:
-
-$$
- \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
-$$
-
-$$
- \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
-$$
-
-$$
- \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
-$$
-
-$$
- \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
-$$
-
-$$
- \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
-$$
-
-$$
- \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
-$$
-
-$$
- \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
-$$
-
-$$
- \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
-$$
-
-$$
- \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
-$$
-
-$$
- \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
-$$
-
-$$
- \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
-$$
-
-$$
- \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
-$$
-
-$$
- \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
-$$
-
-$$
- \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
-$$
-
-$$
- \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
-$$
-
-$$
- \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
-$$
-
-$$
- \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
-$$
-
-$$
- \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
-$$
-
-$$
- \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
-$$
-
-$$
- \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
-$$
-
-$$
- \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
-$$
-
-$$
- \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
-$$
-
-$$
- \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
-$$
-
-$$
- \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
-$$
-
-$$
- \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
-$$
-
-$$
- \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
-$$
-
-$$
- \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
-$$
-
-$$
- \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
-$$
-
-$$
- \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
-$$
-
-$$
- \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
-$$
-
-$$
- \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
-$$
-
-$$
- \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
-$$
+伝えたいことは伝えたので，ここで終わっても良いのでしょうが，最近あった出来事をお話しさせてください．
+僕はカフェが好きです．
+というのも，僕は昨年からカフェでアルバイトを始めたことがきっかけです．
+先日，行きつけのカフェに行きました．
+喫煙席を備えてあり，電子煙草を吸う僕（情けないことこの上なし）にはオアシスのような場所です．
+隣の席に老婆が座っていました．
+小豆色の巾着を持った彼女は，巾着の中を探り，何かを探していました．
+それも周囲をキョロキョロと見渡し，警戒するように．
+横目でそれを見ていた僕は怖くなりました．
+歳を重ねていくうちに纏わりつく，責任やしがらみもまた，ある時期を境に，糸を解くように，アイスクリームが溶けるように，なくなるものです．
+きっともう，何にも縛られないであろうその老婆の巾着からは，何が出てきてもおかしくはありません．
+一丁の拳銃かもしれないし，大麻かもしれない．
+念入りに研がれた包丁かもしれないし，毒薬かもしれない．
+非日常的な出来事を妄想をしがちな僕はあらゆる考えを巡らせ，独りで恐怖を感じていたのです．
+そんな緊張も知らずに，老婆が音を立てずに取り出したのは，黒かりんとう．
+ドンキ・ホーテの黄色いビニール袋から出てきた黒かりんとう．
+くしゃくしゃと音を奏でるビニール袋に入れられた黒かりんとう．
+周囲に気づかれないようにと，こっそり老婆の口に運ばれていく黒かりんとう．
+噛み砕かれて思いのほか，音を出してしまう黒かりんとう．
+僕はその日の帰り道，きっと老婆も行ったであろうドンキ・ホーテで黒かりんとうを買って帰りました．
+黒かりんとうが美味しいと思えるようになりました．

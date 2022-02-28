@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Life on TH&#39;s Blog</title>
+    <link>https://t0m0ya1997.github.io/thblog/categories/life/</link>
+    <description>Recent content in Life on TH&#39;s Blog</description>
+    <image>
+      <url>https://t0m0ya1997.github.io/thblog/images/profile.webp</url>
+      <link>https://t0m0ya1997.github.io/thblog/images/profile.webp</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 27 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://t0m0ya1997.github.io/thblog/categories/life/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>修士論文を提出しました。もう一度洗濯して、干します。</title>
+      <link>https://t0m0ya1997.github.io/thblog/posts/master_thesis/</link>
+      <pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://t0m0ya1997.github.io/thblog/posts/master_thesis/</guid>
+      <description>先日，修士論文を提出しました． 僕の研究した数理モデル，実は僕の生まれた年近くに生まれ，&amp;ldquo;彼&amp;quot;なりの歴史を歩んできたようです． 論文調査をすることで，&amp;ldquo;彼&amp;quot;がどう生きてきたかを知りました． 僕も&amp;quot;彼&amp;quot;の人生に少しでも関わることができていることを願う次第です．
+歴史を辿るということに関連して，歳をとることについてふと思うことがありました． 前に書いた，黒かりんとうをあたかも危険物のように隠し持ち，しかしながら食べる音は周囲に響き渡らせる老婆，自転車を今にも倒れそうなほど遅いスピードで走らせ，小さな（当事者らからしたら大きな）渋滞を歩道で作ってしまう老爺，何度聞かせても，「小倉あんトースト」を「オグラーン・トースト」という，お洒落そうな食べ物に脳内変換してしまう老人たち． 僕の最近の記憶を辿ると，どうも老人に関する記憶が多いことに気づきました． 彼らは僕の数倍，生きています． その年月を経て，彼らの個性は磨かれてきたのです． 個性のガンチャートを描いてみるときっとウニのようになっているのです． もちろん若人にも個性がありますし，尖っている人も多いです． しかし，彼らは川を流れて，ゆくゆくは小さく，丸くなる石のように年月という川の流れに磨かれ，小さく，丸くなるどころか，大きく，尖ってきた個性を持っています． それゆえに，僕の記憶には老人の記憶が刻まれているのかもしれません． そう考えると，歳をとることも前向きに思えてくる次第です．
+ということを考えていたら，回しておいた洗濯物を干すのを忘れてしまいました． もう一度洗濯して，干します．</description>
+    </item>
+    
+    <item>
+      <title>こんにちは。黒かりんとうが美味しいと思えるようになりました。</title>
+      <link>https://t0m0ya1997.github.io/thblog/posts/hello_world/</link>
+      <pubDate>Fri, 21 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://t0m0ya1997.github.io/thblog/posts/hello_world/</guid>
+      <description>はじめまして．社会人になる，なってしまうことから，ブログを移転しました．</description>
+    </item>
+    
+  </channel>
+</rss>

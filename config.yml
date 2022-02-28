@@ -38,7 +38,7 @@ params:
   ShowCodeCopyButtons: true
   disableSpecial1stPost: false
   disableScrollToTop: false
-  comments: false
+  comments: true
   hidemeta: false
   hideSummary: false
   showtoc: false
@@ -62,16 +62,16 @@ params:
   profileMode:
     enabled: true # needs to be explicitly set
     title: TH's Blog
-    subtitle: "吾、唯足ることを知る。"
+    subtitle: "思い立ったことをつらつらと。不定期更新のブログです。"
     imageUrl: "images/profile.webp"
     imageWidth: 256
     imageHeight: 256
     imageTitle: My Profile Image
     buttons:
-      - name: Post
+      - name: 記事一覧
         url: posts
-      - name: Tags
-        url: tags
+      - name: カテゴリー
+        url: categories
 
   # home-info mode
   # homeInfoParams:

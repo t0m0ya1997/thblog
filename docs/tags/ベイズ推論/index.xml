@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>ベイズ推論 on TH&#39;s Blog</title>
+    <link>https://t0m0ya1997.github.io/thblog/tags/%E3%83%99%E3%82%A4%E3%82%BA%E6%8E%A8%E8%AB%96/</link>
+    <description>Recent content in ベイズ推論 on TH&#39;s Blog</description>
+    <image>
+      <url>https://t0m0ya1997.github.io/thblog/images/profile.webp</url>
+      <link>https://t0m0ya1997.github.io/thblog/images/profile.webp</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 30 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://t0m0ya1997.github.io/thblog/tags/%E3%83%99%E3%82%A4%E3%82%BA%E6%8E%A8%E8%AB%96/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ベイズ線形回帰</title>
+      <link>https://t0m0ya1997.github.io/thblog/posts/bayes_lr/</link>
+      <pubDate>Sun, 30 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://t0m0ya1997.github.io/thblog/posts/bayes_lr/</guid>
+      <description>この記事では，ベイズ線形回帰を紹介します．</description>
+    </item>
+    
+  </channel>
+</rss>
