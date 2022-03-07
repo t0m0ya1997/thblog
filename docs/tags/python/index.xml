@@ -9,22 +9,7 @@
       <link>https://t0m0ya1997.github.io/thblog/images/profile.webp</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 28 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://t0m0ya1997.github.io/thblog/tags/python/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>100日後に競馬AIを構築する話(1)</title>
-      <link>https://t0m0ya1997.github.io/thblog/posts/keiba/1/</link>
-      <pubDate>Mon, 28 Feb 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://t0m0ya1997.github.io/thblog/posts/keiba/1/</guid>
-      <description>はじめに なんか競馬をやりたくなりました。 自分の頭を使ってやるのも良いですが、折角これまで機械学習の研究をしてきたので、世に蔓延る膨大なデータを用いて機械学習モデルを構築してみたいと思い始めました。 これから毎日、進捗を書き溜めていこうと思います。 目標設定なのですが、100日後に「競馬の予測ができる状態」を目指します。 ただ、僕はスケジューリングが大変苦手なので、早く終わってしまうことも、ましてや終わらないこともあるため、その点ご了承ください。
-今日の内容 競馬投資シミュレーションを行います。 建前的に言うと、「将来的に競馬で稼げたらなぁ」という小さな欲がどれほど現実味のあることなのかを検証してみることにしました。 本音としては、C++の練習です。
-シミュレーションにあたって以下を仮定します。
-  馬券は1枚 $¥100$ である 1年で $ N = 100$ 回の競馬に参加する 1年で使える金額は $x^0 = ¥10,000$ とする 競馬の出頭馬数は $8\sim 12$ 頭とする 単勝にしか賭けられないとする   また、今回のシミュレーションは簡易的なものですので、適当に以下のパラメータを設定します。
-  手元の資金のうち競馬にかけられる割合 $p = 0.02$ 単勝のオッズ $c = 10$ 単勝を的中することができる確率 $q$   $q$ はこれから作る機械学習モデルの性能に依存するため、この値を変えてシミュレーションを行います。
-$n &amp;gt; 1$ 回の競馬に参加するにあたり行う処理は以下の通りです。
- 前回の結果を踏まえた資金 $x^{(n-1)}$ の2%分を今回使える資金 $z^{(n)}$ とする。すなわち $$ z^{(n)} = \text{max}\Biggl(0, \left\lfloor\frac{2x^{(n-1)}}{100} \times \frac{1}{100}\right\rfloor\times 100\Biggr) \tag{1} $$  例えば $¥960$ が手元にあったら、$960/100=9$, $9*100=900$ で，$¥100$ の馬券が9枚買えることになります．</description>
-    </item>
-    
+    <lastBuildDate>Sun, 30 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://t0m0ya1997.github.io/thblog/tags/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ベイズ線形回帰</title>
       <link>https://t0m0ya1997.github.io/thblog/posts/bayes_lr/</link>
